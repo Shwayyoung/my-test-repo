@@ -1,0 +1,83 @@
+{
+    "R1": {
+        "address": {
+            "v4": "198.51.102.1",
+            "v6-linklocal": "fe80::c801:31ff:fea2:1c",
+            "v6": "2001:ab8:acad:1::1"
+        }
+    },
+    "R2": {
+        "address": {
+            "v4": "198.51.102.11",
+            "v6-linklocal": "fe80::c802:31ff:feb1:1c",
+            "v6": "2001:db8:1:0:c802:31ff:feb1:0"
+        }
+    },
+    "R3": {
+        "address": {
+            "v4": "198.51.102.12",
+            "v6-linklocal": "fe80::c803:31ff:fec0:1c",
+            "v6": "2001:db8:1:0:c803:31ff:fec0:0"
+        }
+    },
+    "R4": {
+        "address": {
+            "v4": "198.51.101.25",
+            "v6-linklocal": "fe80::c804:31ff:fecf:1c",
+            "v6": "2001:db8:51::1"
+        }
+    },
+    "R5": {
+        "address": {
+            "v4": "198.51.101.1",
+            "v6-linklocal": "fe80::c805:31ff:fefc:0",
+            "v6": "2001:db8:1:0:c805:31ff:fefc:0"
+        }
+    }
+}{
+    "R1": {
+        "FastEthernet0/0": "down",
+        "FastEthernet1/0": "up",
+        "FastEthernet1/1": "down",
+        "FastEthernet2/0": "down",
+        "FastEthernet2/1": "down",
+        "GigabitEthernet3/0": "down",
+        "Null0": "up"
+    },
+    "R2": {
+        "FastEthernet0/0": "up",
+        "FastEthernet1/0": "up",
+        "FastEthernet1/1": "down",
+        "FastEthernet2/0": "down",
+        "FastEthernet2/1": "down",
+        "GigabitEthernet3/0": "down",
+        "Null0": "up"
+    },
+    "R3": {
+        "FastEthernet0/0": "up",
+        "FastEthernet1/0": "up",
+        "FastEthernet1/1": "down",
+        "FastEthernet2/0": "down",
+        "FastEthernet2/1": "down",
+        "GigabitEthernet3/0": "down",
+        "Null0": "up"
+    },
+    "R4": {
+        "FastEthernet0/0": "up",
+        "FastEthernet1/0": "up",
+        "FastEthernet1/1": "down",
+        "FastEthernet2/0": "down",
+        "FastEthernet2/1": "down",
+        "GigabitEthernet3/0": "down",
+        "Null0": "up"
+    },
+    "R5": {
+        "FastEthernet0/0": "up",
+        "FastEthernet1/0": "down",
+        "FastEthernet1/1": "down",
+        "FastEthernet2/0": "down",
+        "FastEthernet2/1": "down",
+        "GigabitEthernet3/0": "down",
+        "Null0": "up"
+    }
+}
